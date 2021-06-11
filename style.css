@@ -31,14 +31,15 @@ a:active {
     text-decoration: none; 
 }
     
-}
-.btn-success {
-   
+.button-contact {
+    color: white;
     background-color: black;
     border: 0px;
 }
 
-.btn-success:hover {
+.button-contact:hover {
+    color: white;
+    border: 0px;
     background-color: orange;
 }
 
@@ -101,6 +102,7 @@ a:active {
 }
 
 #p-container {
+    margin-top: 5vh;
     width: 97%; /* width of hero */
     max-width: 1580px;
 }
@@ -194,15 +196,18 @@ a:active {
     text-align: left;
 }
 
+.contact-form {
+    
+}
 
 /* MAP */
 
 .g-map {
-    
     display: flex;
     justify-content: center;  
     align-items: center;
     margin-bottom: 10vh;
+    
 }
 
 .g-map iframe {
