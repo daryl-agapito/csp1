@@ -30,7 +30,8 @@ a:hover,
 a:active { 
     text-decoration: none; 
 }
-
+    
+}
 .btn-success {
    
     background-color: black;
@@ -180,12 +181,16 @@ a:active {
 
 .tagline-card {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     margin-top: -1rem;
     text-align: right;
 }
 
 .profile-card {
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    
     text-align: left;
 }
 
@@ -259,8 +264,11 @@ footer {
         text-align: center;
     }
 
-}.
+    .profile-card {
+        margin-top: -5vh;
+    }
 
+}
 
 /* Animation for text */
 
@@ -308,3 +316,15 @@ footer {
 {
     opacity:0;
 }
+
+.fade-in {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.1s linear;
+  }
+
+.fade-out {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.3s, opacity 0.3s linear;
+  }
