@@ -301,16 +301,6 @@ footer {
     -webkit-animation-fill-mode: both
 }
 
-.animatedFadeInUp {
-    opacity: 0
-}
-
-.fadeInUp {
-    opacity: 0;
-    animation-name: fadeInUp;
-    -webkit-animation-name: fadeInUp;
-}
-
 /* Fade in animation */
 .hideme
 {
