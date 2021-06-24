@@ -9,10 +9,29 @@
 /* Tags */
 h1 {
     font-size: 7vh;
+    margin: 0;
+    padding: 0;
 }
 
-h5, h6 {
+h2 {
+    font-size: 5vh;
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    color: black;
+    font-weight: lighter;
+}
+
+h6 {
+    color: white;
+    font-weight: lighter;
+}
+
+p {
     color: darkgray;
+    font-size: 2.5vh;
     font-weight: lighter;
 }
 
@@ -53,6 +72,7 @@ a:active {
     border: none;
     box-shadow: none;
 }
+
 .work-cta { 
     transition: all 0.4s;
 }
@@ -63,9 +83,9 @@ a:active {
   }
   
 .logo {
-    height: 5vh;
+    height: 4vh;
 }
-  
+
 
 /* HERO */
 #hero {
@@ -77,39 +97,49 @@ a:active {
     background-position: center;
 }
 #hero-container {
-    max-width: 1580px;
     height: 100vh;
-    width: 97%; /* width of hero */
+    width: 100%; /* width of hero */
     display: flex;
-    flex-direction: row;
-    align-items:flex-end;
-    
+    align-items: center;
+    text-align: center;
+    max-width: 1480px;
+    position: relative;
+}
+
+.hero-text-container {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    margin-bottom: 15vh;
 }
 
 #intro-row {
-    margin-bottom: 10vh;
-    bottom: 0;
-    left: 0;
+    margin-bottom: 15vh;
 }
 
 #intro-text {
-   
     width: 100%;
     overflow: hidden;
 }
 
+
 #p-container {
     margin-top: 5vh;
-    width: 97%; /* width of hero */
-    max-width: 1580px;
+    width: 100%; /* width of hero */
+    max-width: 1480px;
 }
 
 #section-header {
+    padding: 0;
+    margin-top: -1vh;
     margin-bottom: 5vh;
 }
 
 .p-box {
-    max-width: 1580px;
+   
+    align-items: center;
+    max-width: 1480px;
     margin-top: 5vh;
     padding: 1vh;
     background-color: black;
@@ -118,6 +148,17 @@ a:active {
     border-right: black solid 5px;
     margin-bottom: 10vh;
 }
+
+#p-text {
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+
+
+#p-text h5 {
+    color: darkgray;
+}
+
 
 /* Project Gallery */
 .proj-img {
@@ -170,26 +211,18 @@ a:active {
     width: 35%;
 }
 
-.about-text {
-    margin-left: -10px;
+.tagline-card {
+    text-align: center;
+}
+
+.profile-card {
+    text-align: center;
 }
 
 .contact-form {
     margin-bottom: 5vh;
-}
-
-.tagline-card {
-    display: flex;
-    align-items: flex-start;
-    margin-top: -1rem;
-    text-align: right;
-}
-
-.profile-card {
-    text-align: left;
-    display: flex;
-    align-items: flex-start;
-    text-align: left;
+    padding: 0;
+    width: 100%;
 }
 
 
@@ -272,7 +305,16 @@ footer {
     h1 {
         font-size: 2.5rem;
     }
+
+    h2 {
+        font-size: 1.5rem;
+    }
     
+    #p-text {
+        margin-top: 2vh;
+        margin-left: 0;
+    }
+
     .tag-line {
         text-align: center;
     }
@@ -283,10 +325,15 @@ footer {
 
     .profile-card {
         margin-top: -5vh;
-    }
+    }   
 
     .g-container {
         margin-top: -10vh;
+        width: 90%;
+    }
+    
+    .contact-form {
+        width: 90%;
     }
 
 }
