@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <!-- ANIMATION CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Portfolio | Daryl Agapito - Fullstack Web Developer</title> 
 </head>
 <body>
@@ -46,12 +48,12 @@
         
         <div id="intro-row" class="row justify-content-center">
         
-            <div id="intro-text" class="animated animatedFadeInUp fadeInUp">
-              <h5 style="letter-spacing: 3px; color: darkgray;">Daryl Agapito</h5>
+            <div id="intro-text">
+              <p style="letter-spacing: 3px; color: darkgray;">Daryl Agapito</p>
               <h1 class="pb-5"><strong>Full Stack Web Developer</strong></h1>
             </div>
 
-            <div class="hero-text-container">
+            <div class="hero-text-container animate__animated animate__fadeInUp">
               <div class="row justify-content-center">
                 <div class="col-md-6">
                 <p>I design and develop experiences that can make a positive impact on other people's lives.</p>
@@ -71,18 +73,23 @@
     <!-- Projects -->
 
     <section id="projects">
+
+      <!-- test container -->
+      <div class="container ">
+
+
       <div id="p-container" class="container-fluid">
         <div class="row">
-          <div class="col-md-6">
-            <div id="p-text">
+          
+            <div id="p-text" class="col-md-12">
               <h5 style="letter-spacing: 3px;">Recent</h5>
-              <h1 id="section-header"><strong>Projects</strong></h1>
+              <h1><strong>Projects</strong></h1>
             </div>
-          </div>  
+         
         </div>
       </div>
 
-      <div class="container-fluid p-box">
+      <div class="container p-box">
         
         <!-- row 1 -->
         <div class="row"> 
@@ -142,18 +149,26 @@
           </div>
        
       </div> 
-    </section>
+    <!-- test container -->
+    </div>
+
+  </section>
     <hr width="50%">
 
         <!-- About Me -->
         
         <section id="about">
+
+      <!-- test container -->
+      <div class="container ">
+
+
           <div id="p-container" class="container-fluid about-me-container">
             <div id="p-row" class="row">
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div id="p-text">
                   <h5 style="letter-spacing: 3px;">Get to know me</h5>
-                  <h1 id="section-header"><strong>About</strong></h1>
+                  <h1><strong>About</strong></h1>
                 </div>
               </div>  
             </div>
@@ -202,6 +217,8 @@
             </div>
 
       </div>
+    </div> 
+    <!-- test container -->  
     </section>
     <hr width="50%">
 
@@ -210,12 +227,15 @@
 
     <!-- CONTACTS -->
     <section id="contacts">
+    <!-- test container -->
+    <div class="container ">
+    
       <div id="p-container" class="container-fluid">
         <div id="p-row" class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <div id="p-text">
               <h5 style="letter-spacing: 3px;">Reach out</h5>
-              <h1 id="section-header"><strong>Contact</strong></h1>
+              <h1><strong>Contact</strong></h1>
             </div>
           </div>  
         </div>
@@ -278,14 +298,16 @@
     <div class="col-md-4 g-container hideme">
     <div class="row justify-content-center">
       <div class="col-md-12 g-map">
-        <iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.8660390896493!2d120.98799761541565!3d14.606706080841656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9ff00d52fe3%3A0xbc707a174d2f13b0!2sUniversity%20Tower%20II%2C%20Galicia%20St%2C%20Sampaloc%2C%20Manila%2C%201008%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1623312092766!5m2!1sen!2sph" 
+        <iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.8842543306887!2d120.98927221543198!3d14.605668780866685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9fefac5f01f%3A0xbba6a2301b850a05!2sGalicia%20St%2C%20Sampaloc%2C%20Manila%2C%201008%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1624699745019!5m2!1sen!2sph"
         allowfullscreen="" loading="lazy"></iframe>
       </div>
     </div>
-
-
+   
   </div>
 </div>
+
+</div> 
+<!-- test container -->  
     </section>
 
     <footer>
@@ -340,6 +362,8 @@
       });
     });
     </script>
+
+    
 
     <!-- NAV scroll fade -->
     <script>
